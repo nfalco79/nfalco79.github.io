@@ -1,0 +1,200 @@
+{
+	"connectionCheckUrl":"https://github.com",
+	"deprecations":{},
+	"generationTimestamp":"2022-05-12T16:37:25Z",
+	"id":"nfalco79",
+	"plugins":{
+		"bitbucket-trait":{
+			"buildDate":"Jan 26, 2022",
+			"defaultBranch":"master",
+			"dependencies":[
+				{
+					"name":"branch-api",
+					"optional":false,
+					"version":"2.5.5"
+				},
+				{
+					"name":"cloudbees-bitbucket-branch-source",
+					"optional":false,
+					"version":"2.7.0"
+				},
+				{
+					"name":"git",
+					"optional":false,
+					"version":"4.2.0"
+				}
+			],
+			"developers":[],
+			"excerpt":"Additional traits and build strategy for multi branch project.",
+			"gav":"com.github.nfalco79:bitbucket-trait:1.0.1",
+			"labels":[],
+			"minimumJavaVersion":"1.8",
+			"name":"bitbucket-trait",
+			"popularity":0,
+			"releaseTimestamp":"2022-01-26T13:21:07.00Z",
+			"requiredCore":"2.303.1",
+			"scm":"https://github.com/nfalco79/bitbucket-trait-plugin",
+			"sha1":"8k0+VkOqklzhJ8HIrjPL+aNyqGw=",
+			"sha256":"/RV1yITalrkGBhzyiRq3MPDooPXNbcf1QLb5JWP2kZo=",
+			"size":21848,
+			"title":"Additional Traits and Build strategies",
+			"url":"https://search.maven.org/com/github/nfalco79/bitbucket-trait/1.0.1/bitbucket-trait-1.0.1.hpi",
+			"version":"1.0.1",
+			"wiki":"https://plugins.jenkins.io/bitbucket-trait"
+		},
+		"branch-properties":{
+			"buildDate":"Jan 26, 2022",
+			"defaultBranch":"master",
+			"dependencies":[
+				{
+					"name":"branch-api",
+					"optional":false,
+					"version":"2.7.0"
+				}
+			],
+			"developers":[],
+			"excerpt":"Allows to add action to run a build in a multi-branch projects specifying a different set of parameters for each branch.",
+			"gav":"com.github.nfalco79:branch-properties:1.0.1",
+			"labels":[],
+			"minimumJavaVersion":"1.8",
+			"name":"branch-properties",
+			"popularity":0,
+			"releaseTimestamp":"2022-01-26T11:38:10.00Z",
+			"requiredCore":"2.303.1",
+			"scm":"https://github.com/nfalco79/branch-properties-plugin",
+			"sha1":"sAvhioIFrmD079XMkAQSpzwOAVk=",
+			"sha256":"rW7JJepcapKO/sbZQF9m1cafFkSHjwaRduKda05Dhnc=",
+			"size":51434,
+			"title":"Define branch properties for MultiBranch Pipeline Jobs",
+			"url":"https://search.maven.org/com/github/nfalco79/branch-properties/1.0.1/branch-properties-1.0.1.hpi",
+			"version":"1.0.1",
+			"wiki":"https://plugins.jenkins.io/branch-properties"
+		},
+		"ext-configfiles":{
+			"buildDate":"Mar 21, 2022",
+			"defaultBranch":"master",
+			"dependencies":[
+				{
+					"name":"config-file-provider",
+					"optional":false,
+					"version":"3.9.0"
+				}
+			],
+			"developers":[],
+			"excerpt":"Extension of config files plugin to manage pypirc and ruby.",
+			"gav":"com.github.nfalco79:ext-configfiles:1.0.2",
+			"labels":[],
+			"minimumJavaVersion":"1.8",
+			"name":"ext-configfiles",
+			"popularity":0,
+			"releaseTimestamp":"2022-03-21T10:45:23.00Z",
+			"requiredCore":"2.319.1",
+			"scm":"https://github.com/nfalco79/ext-config-files-plugin",
+			"sha1":"VFjH6E6sRjJxJJWJVQOev0CXo6U=",
+			"sha256":"c/gQMCc7JWHxXw4ivhxI+mxSErRI/qltLx8b5UY846Y=",
+			"size":382134,
+			"title":"Extension of config files provider",
+			"url":"https://search.maven.org/com/github/nfalco79/ext-configfiles/1.0.2/ext-configfiles-1.0.2.hpi",
+			"version":"1.0.2",
+			"wiki":"https://plugins.jenkins.io/ext-configfiles"
+		},
+		"ext-credentials-binding":{
+			"buildDate":"Jan 20, 2022",
+			"defaultBranch":"master",
+			"dependencies":[
+				{
+					"name":"credentials-binding",
+					"optional":false,
+					"version":"1.27"
+				}
+			],
+			"developers":[],
+			"excerpt":"Allows credentials to be bound to environment variables for use from miscellaneous build steps.",
+			"gav":"com.github.nfalco79:ext-credentials-binding:1.0.1",
+			"labels":[],
+			"minimumJavaVersion":"1.8",
+			"name":"ext-credentials-binding",
+			"popularity":0,
+			"releaseTimestamp":"2022-01-20T19:42:13.00Z",
+			"requiredCore":"2.303.1",
+			"scm":"https://github.com/nfalco79/ext-credentials-binding",
+			"sha1":"d6uKa/CVF9UP4HkOYMHlfRSt79k=",
+			"sha256":"/K7A/vR0DXaCDaRHy94X9ozxgnLGGEOpxTYCMURXPQo=",
+			"size":16420,
+			"title":"Extension for Credentials Binding",
+			"url":"https://search.maven.org/com/github/nfalco79/ext-credentials-binding/1.0.1/ext-credentials-binding-1.0.1.hpi",
+			"version":"1.0.1",
+			"wiki":"https://plugins.jenkins.io/ext-credentials-binding"
+		},
+		"k8s-provisioning":{
+			"buildDate":"Jan 26, 2022",
+			"defaultBranch":"master",
+			"dependencies":[
+				{
+					"name":"kubernetes",
+					"optional":false,
+					"version":"1.31.3"
+				},
+				{
+					"name":"branch-api",
+					"optional":false,
+					"version":"2.7.0"
+				}
+			],
+			"developers":[],
+			"excerpt":"Extension of kubernetes plugin to manage PVC based on job life cycle.",
+			"gav":"com.github.nfalco79:k8s-provisioning:1.0.1",
+			"labels":[
+				"kubernetes"
+			],
+			"minimumJavaVersion":"1.8",
+			"name":"k8s-provisioning",
+			"popularity":0,
+			"releaseTimestamp":"2022-01-26T15:47:49.00Z",
+			"requiredCore":"2.303.3",
+			"scm":"https://github.com/nfalco79/k8s-provisioning-plugin",
+			"sha1":"uj6TYg7nXYgHFsE4brhaG14M0Po=",
+			"sha256":"DKvq99VNaJuyvl/59gijSFQV4iWRuDfr3ZhKDNRXfdY=",
+			"size":18710,
+			"title":"Kubernates dynamic persistent volume provisioning",
+			"url":"https://search.maven.org/com/github/nfalco79/k8s-provisioning/1.0.1/k8s-provisioning-1.0.1.hpi",
+			"version":"1.0.1",
+			"wiki":"https://plugins.jenkins.io/k8s-provisioning"
+		},
+		"workflow-steps":{
+			"buildDate":"Jan 31, 2022",
+			"defaultBranch":"main",
+			"dependencies":[
+				{
+					"name":"workflow-api",
+					"optional":false,
+					"version":"1122.v7a_916f363c86"
+				},
+				{
+					"name":"workflow-step-api",
+					"optional":false,
+					"version":"622.vb_8e7c15b_c95a_"
+				}
+			],
+			"developers":[],
+			"excerpt":"Common steps used in Pipelines.",
+			"gav":"com.github.nfalco79:workflow-steps:1.0.0",
+			"labels":[],
+			"minimumJavaVersion":"1.8",
+			"name":"workflow-steps",
+			"popularity":0,
+			"releaseTimestamp":"2022-01-31T15:06:50.00Z",
+			"requiredCore":"2.303.3",
+			"scm":"https://github.com/nfalco79/workflow-steps-plugin",
+			"sha1":"12E8Gr6LaTY0yO8ZM548XVLFYiw=",
+			"sha256":"NOW4NecCYhNgJS1RV6eGEFRKgNmkriLCp4Ou3YyIkoA=",
+			"size":14872,
+			"title":"Pipeline: Additional Basic Steps",
+			"url":"https://search.maven.org/com/github/nfalco79/workflow-steps/1.0.0/workflow-steps-1.0.0.hpi",
+			"version":"1.0.0",
+			"wiki":"https://plugins.jenkins.io/workflow-steps"
+		}
+	},
+	"updateCenterVersion":"1",
+	"warnings":[]
+}
