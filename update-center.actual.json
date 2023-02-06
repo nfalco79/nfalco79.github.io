@@ -1,7 +1,7 @@
 {
 	"connectionCheckUrl":"https://www.google.com/",
 	"deprecations":{},
-	"generationTimestamp":"2023-01-26T20:28:14Z",
+	"generationTimestamp":"2023-02-06T08:48:40Z",
 	"id":"nfalco79",
 	"plugins":{
 		"bitbucket-trait":{
@@ -67,29 +67,29 @@
 			"wiki":"https://github.com/nfalco79/branch-properties-plugin/wiki"
 		},
 		"ext-configfiles":{
-			"buildDate":"Mar 21, 2022",
+			"buildDate":"Feb 03, 2023",
 			"dependencies":[
 				{
 					"name":"config-file-provider",
 					"optional":false,
-					"version":"3.9.0"
+					"version":"3.11.1"
 				}
 			],
 			"developers":[],
 			"excerpt":"Extension of config files plugin to manage pypirc and ruby.",
-			"gav":"com.github.nfalco79:ext-configfiles:1.0.2",
+			"gav":"com.github.nfalco79:ext-configfiles:1.0.3",
 			"labels":[],
 			"name":"ext-configfiles",
 			"popularity":0,
-			"releaseTimestamp":"2022-03-21T10:45:23.00Z",
-			"requiredCore":"2.319.1",
+			"releaseTimestamp":"2023-02-03T17:28:44.00Z",
+			"requiredCore":"2.375.1",
 			"scm":"https://github.com/nfalco79/ext-config-files-plugin",
-			"sha1":"VFjH6E6sRjJxJJWJVQOev0CXo6U=",
-			"sha256":"c/gQMCc7JWHxXw4ivhxI+mxSErRI/qltLx8b5UY846Y=",
-			"size":382134,
+			"sha1":"WJP5yoB2xBOTK4y0kcHP1jhor0I=",
+			"sha256":"bpjVh0prziKODFXUAAbFPUuXMM9FGp2zIQt6pBlRKSQ=",
+			"size":383843,
 			"title":"Extension of config files provider",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/ext-configfiles/1.0.2/ext-configfiles-1.0.2.hpi",
-			"version":"1.0.2",
+			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/ext-configfiles/1.0.3/ext-configfiles-1.0.3.hpi",
+			"version":"1.0.3",
 			"wiki":"https://github.com/nfalco79/ext-configfiles-plugin/wiki"
 		},
 		"ext-credentials-binding":{
@@ -185,10 +185,10 @@
 		"certificates":[
 			"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"
 		],
-		"correct_digest":"s3XuitcrC/Itxuu9P9h52jvSZxo=",
-		"correct_digest512":"c1d80266f68ce58bce50d4e19ee89e655018f644b2258dc2eef4c54620f9b4b2f5df752591611a17545a2900e8ac87cb5271c591e3fbdfbc2e3fb1fb81eb17ed",
-		"correct_signature":"K4Iwc1Q7xmhn4xFYkCtOZQLl5H7gJKqTPvCu/yShZgg2abSG+9dWDSjoHY9sQCibKNvJZ/aYWahUEAawDbkJIy0oFC+dll9K1912edAJH8A/GD1NW0HI9OdLsfZAMSfJsw8B0X+JdMfYh7aWOFw9qsavf37IUwpWNpe4KXM6uU24KseKn/aCYctf5rOh6/ElhDF0w+sfVIfwXLzeMn7w0lHJnBR6RDmcGTz5OW3OgIZFJ5OLiHPWBHHM/XtkFTuP5QpFpPkrBLpi9oKLEiHo/p0ruECmZ/RTHalSzx6CWfX3ZXuwI1xG8o4+09njoQdTNKzfX+EJPqtBJAD8sq/78QEdyiwSgG0fsN0vfymvB970er3xJrPM+HuZAT8JPd+HWXoxAE28q03LmsAP32c6qWwgJMFFpFFbiSrNXYn/RH1QeMl+AXPm7JWEuU/dJsvPh2FX+zki6/1JOvhPZiVZrN2q8aZWh1LtTYH6UvMGbS5j0A2xfcHnPT8N4zqyJaUt+sELUkroHYpTujXvFdAvgpMnBJQ+DGAPD1D8amjMx2rqLgj5qjxLKcGdMMccJ6bWzbad+batW41mFpSQO11Nozc4Id77aGy82+5W3k752W6y2fh63D8CrAPpORP+d3AKguLoz+5gKMJrTmF/L2X+9rQI6l3znlmZIhm2NgbyU9o=",
-		"correct_signature512":"77cd2c6ee8b5699e09efa9122195305b6224926a498c1cc7144176a19dc8476a4163ed366859f594fc303bf11a0c37c69624c337f049d5701751225f92c519d977d573bd61ef1a62584d31ecb66935e369863a7186296c18a28c18094c6c124567b305be2ae9f148a287231cce95aa03486c52eff76416804125866808460462c2d358d9556896708c0aad8d7625952a55f95054c5f9449c4918b430673a6db4f206c8faead7e3eed55aa2aa2fb668a2da72093581334b92798a970e918a2e3ec1f80ba1ff89322ccff8bf342e50cdc890abd30cac111b80da32a176c66a1d44271d6647dc96e1b322a057fd1da351ca8fbc9ba3ec1c478caf1941a6a4a6d96ca37bc2cfdc4b1c1ef8317d5fe2a4d825121fdcc578262386f78bdaa99951a7b98a696f523e85c6ba23f200b5e0190d4b4aaa7ff34856c0a53455aac5ceb5cf03cfee2147c07e9781e85fc95dcb3c63ec48f2fccf3caa6f381c425271f14dc4f8816b027b320565912a718d19ce6fd59f18e0069d3d8af3e9dca9b3b52922b416555c9bdd4f9962bb73af6f3076bc96e5afd129ebed2a9047fee51ee6ffd4c807d26c657d3aa8f63e7ce5f42ad219b14c298acccfa69ae7e0a24e09efccf38e19376b02fc1423e4706608be1562939ceb2ea65b76f782ee61c53babb3a7dfd3a8c4b91ab976ec24e3e7211c1698435f2e0b080c0ce5567a6c60c301a2fc3b8c4a"
+		"correct_digest":"HYHu7DQERoamvxnTzDQBy9wu23U=",
+		"correct_digest512":"9e4502a528fecd447b1b12fb0b27ba5cd1a682b95d31a5acc4670c76e57bd8cd922c3912e05f6af247968e6005539f602479c52223087697f39636f3879a07e8",
+		"correct_signature":"vtvq6692ZelzxTVEq4kY5nXMPBjagqoqo+PCXiHtUuISGz/tpmW2pX6rhNDwXzODUVinF7W6tY1dg7VhnenfJG0V+30iRLJfzs77fsN6QvSTl5iTMS/o1xL5oUyhSIdsvzRtm0vaggE39nA/XwePQjj26yYQwCdipX8uy04ElDp+tDCcAhyVxFNwj+pd0BFOfZNBQ7MffGUGxqm7w1/uoEOKeIBXOLaFh+GKhNHiiobWwG8nGbbPHkf3LGgvlCKrBRCItFCEQm8ayOATqbmuwue6pCbQ0x8CJAwlhecIkjAEXe32UPQg12sfKwucL8NyN3CN/y8Gll0QRQT7nOZqO44tGxlaYJXWcuoHtHsc7nQozg8bsdKlKLh40EGirQ1iq0s2CLRHQ2P+Dwi4YBFMaaXaOFtMEBdWyro+CmSf+0A0NNgeLD1D8d7CK/8hURXD4LIP1CcIHctdW2flWFHKOKazTnVmwN6S4J7O7i1fmCTFSn/IKw5C7h0UxH/JH4HS8ZYXtRhDXOOgfym9j6b5IYPcq+5AypjRejpiis3FwMNffk8rjXVrjPZeFaSLyrdRNWKmbZzGeT43j60fU2jhyHrOnWcmsjjlznDnRiCHgema+GxC4jRvveqDzN8JRv0tcn1oVS22r6jCg8qlz+lo0NuxXnC4+bxNPbMRUGCE0R0=",
+		"correct_signature512":"40a78ff09066b0d8f31bfecd203d53d876528f62d6d1727002efd3b48669b5c253683b1761515dc7adfbf63e6b9ec92c23b9c651d6f2cf2c33f978630b94ddd981766144bb30a74743ca740ad117f887937e4a115c8ba17c713ff3e79c40d4fe6fa8f1f41d262a70808431f11955b762af56f9d0313cc1b0fd7592d6661a10bdb0e78ba805b1d5fa1ca8bb31c6f5336d42ea7794f83086bbe94677690eb9831f00816d2c3bcea7a5ba02de3732655040bf64635e8c29233286ed9b536bd0ec2f8e56ef0a2f50fe504715ee0f1efd7cad73188720ea110da90c2c1deaa18606631f1fcf152c229da0bff244a17ebe3f39c52abd735065f6b4d70d3cf1d0b243ff2878d806141374a38eba0400a97dd5cd24e362b68219e59b555ebf09e75d7cf286a3e987ceb2c3855981250c267fd08d562cfc0477b30a7fcf91c96e7e8cb0c6c13c481135dcfdf2b0e7cc6ac38668f06d53e2cd8f1a9a7acb39bbfce2bae389534929366b717fc58fdfe69147366658b48b88922a7b602713c5fbbdf80f5b0998cd55dbbfd415428c660fe8821cbef7a5f89003c8a83e67fc08a7616dad2f56cd60fae25b8424a5421aa6375fddf5e6c3fcc00758ace937d5454b9f20467520d8caeaf82190193eb02e223d50bad8dcf9bed707e4f936e8d496a55d8a76932bccb7a0a952058ce02b10b8a5ed628ac934b62ee0bd040fc2d3f535f7b25fcf48"
 	},
 	"updateCenterVersion":"1",
 	"warnings":[]
