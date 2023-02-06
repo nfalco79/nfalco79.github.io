@@ -2,6 +2,8 @@
 Alternative Jenkins Update Center.
 This update site contains other useful plugin for develop e pipeline that allow releases, traits and some other useful pipeline steps.
 
+## Unmanaged Jenkins
+
 To enable this public update site install the [update-sites-manager-plugin](https://github.com/jenkinsci/update-sites-manager-plugin).
 Go to https://jenkins.mycompany.org/updatesites/ and configure a new "Custom update sites" as follow:
 
@@ -49,3 +51,34 @@ uC6ejN2TFBWWghPSNTrYuLiOJmIXzJ59siPPRyH9vuex/SGOe53T1V7eODFN3Xx8
 V4+hdVI1GAtsuyawuQ==
 -----END CERTIFICATE-----
 ```
+
+## Helm Chart + JCasC Managed
+
+Until JCasC plugin does not support UpdateSite extension (see [this issue](https://github.com/jenkinsci/configuration-as-code-plugin/issues/1305)) a working around is to upload all the needed updateSite RootCA certificates under the ${JENKINS_HOME}/update-center-rootCAs.
+
+When use helm to manager deployment than create a secret to contains all root CA you need like [this](https://nfalco79.github.io/updatesite-certificates.json)
+```console
+kubectl apply -n jenkins -f updatesite-certificates.json
+```
+
+Edit persistence section in the the [values.yml](https://github.com/jenkinsci/helm-charts/blob/main/charts/jenkins/values.yaml) as follow:
+```yaml
+persistence:
+  enabled: true
+  ...
+  volumes:
+    - name: updatesite-certificates
+      projected:
+        sources:
+          - secret:
+              name: updatesite-certificates
+              items:
+                - key: nfalco79-rootCA
+                  path: nfalco79.crt
+  mounts:
+    - mountPath: /var/jenkins_home/update-center-rootCAs
+      name: updatesite-certificates
+      readOnly: true
+```
+
+Upgrade your chart.
