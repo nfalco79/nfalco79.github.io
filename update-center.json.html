@@ -2,11 +2,57 @@
 {
 	"connectionCheckUrl":"https://www.google.com/",
 	"deprecations":{},
-	"generationTimestamp":"2023-02-28T08:18:23Z",
+	"generationTimestamp":"2023-03-13T08:03:31Z",
 	"id":"nfalco79",
 	"plugins":{
+		"bitbucket-steps":{
+			"buildDate":"Mar 08, 2023",
+			"dependencies":[
+				{
+					"name":"workflow-step-api",
+					"optional":false,
+					"version":"639.v6eca_cd8c04a_a_"
+				},
+				{
+					"name":"credentials",
+					"optional":false,
+					"version":"1214.v1de940103927"
+				},
+				{
+					"name":"handy-uri-templates-2-api",
+					"optional":false,
+					"version":"2.1.8-22.v77d5b_75e6953"
+				},
+				{
+					"name":"jackson2-api",
+					"optional":false,
+					"version":"2.13.4.20221013-295.v8e29ea_354141"
+				},
+				{
+					"name":"script-security",
+					"optional":false,
+					"version":"1229.v4880b_b_e905a_6"
+				}
+			],
+			"developers":[],
+			"excerpt":"Workflow step to get informations about repository hosted at Bitbuket Cloud.",
+			"gav":"com.github.nfalco79:bitbucket-steps:1.0.1",
+			"labels":[],
+			"name":"bitbucket-steps",
+			"popularity":0,
+			"releaseTimestamp":"2023-03-08T20:15:50.00Z",
+			"requiredCore":"2.375.1",
+			"scm":"https://github.com/nfalco79/bitbucket-steps-plugin",
+			"sha1":"XqXmZmeBI8pMw7C+/yfrPuenzwA=",
+			"sha256":"xc5tH0dkw+QGaH1x7FWfkEF4B6/2oHHenLn9JI9GwVI=",
+			"size":1863812,
+			"title":"Pipelines step for Bitbucket Cloud",
+			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/bitbucket-steps/1.0.1/bitbucket-steps-1.0.1.hpi",
+			"version":"1.0.1",
+			"wiki":"https://github.com/nfalco79/bitbucket-steps-plugin/wiki"
+		},
 		"bitbucket-trait":{
-			"buildDate":"Feb 17, 2023",
+			"buildDate":"Mar 11, 2023",
 			"dependencies":[
 				{
 					"name":"branch-api",
@@ -26,19 +72,19 @@
 			],
 			"developers":[],
 			"excerpt":"Additional traits and build strategy for multi branch project.",
-			"gav":"com.github.nfalco79:bitbucket-trait:1.0.3",
+			"gav":"com.github.nfalco79:bitbucket-trait:1.1.0",
 			"labels":[],
 			"name":"bitbucket-trait",
 			"popularity":0,
-			"releaseTimestamp":"2023-02-17T14:41:15.00Z",
+			"releaseTimestamp":"2023-03-11T13:53:20.00Z",
 			"requiredCore":"2.375.1",
 			"scm":"https://github.com/nfalco79/bitbucket-trait-plugin",
-			"sha1":"98KiQ9533VboS2/bP0yjnYiPz/Q=",
-			"sha256":"2brg2p/3esZ7LrGkQFKDXVcD7GqTMMUgK7u0SutJXso=",
-			"size":22392,
+			"sha1":"8WkdBtG759PlV6rhHup8exMpS9o=",
+			"sha256":"A0iNwCKo9R59AXRMzDD38SsdHlzHMlC6+Dv78nttWmE=",
+			"size":25279,
 			"title":"Additional Traits and Build strategies",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/bitbucket-trait/1.0.3/bitbucket-trait-1.0.3.hpi",
-			"version":"1.0.3",
+			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/bitbucket-trait/1.1.0/bitbucket-trait-1.1.0.hpi",
+			"version":"1.1.0",
 			"wiki":"https://github.com/nfalco79/bitbucket-trait-plugin/wiki"
 		},
 		"branch-properties":{
@@ -186,10 +232,10 @@
 		"certificates":[
 			"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"
 		],
-		"correct_digest":"mjYOo/RgTRJiLE6SX9yLtLmXRFI=",
-		"correct_digest512":"5511963bdbae7909d0c012e980136a46b7801d2f679fdbd71a3036e6f1871d1c2221f8e07af82622b13464b33732c6740a666345f91aa367cac9c178bc1ca349",
-		"correct_signature":"QoyPxSYo+n0Wy9xuC0fpXrXEppwL8SEWYjeoxFyX4zibLNkxd4K2NtG0t1LMhGWRW+nbdUIS6KGWrEYQtI/1Ki9E6P2L8HZL532wYMf1fFJwpO2EbHL0jNxaO19dZFjknJgMidddo+l9sHjL/jSCOwPJmVH8kHZcR97zBHIRUqdA8fofx4MMSnKee8Wt8A70/Wm/+5x7RXfLGbAde/hRUiadTWT0OcOpuRS+n928KsHN+95v/wztByJ0sXuqXsBn1iRaVvFvMNes0G4an0GIjvDTcPYEQJMQxtmlQ68+APfjRhFnNNqkuPOBL6bvRFTftTUg9LJt0NPSvCepMmspXxBtmX8VGzYugzmLpt07I2nqDEZgrQDJrov6+eS8fKNQzJTMJs3JdJ8hBG9UarPosLKtUWftMfd9uBSMS7LM7anNHQUl4GMDbVpjLi38dxue3sJ/Snfzk8m9QQUBIb6C4l8AhD794GlW4d3BjSd08jVjILcx+NKfas9T7FXIpa+LV0B1ul7nqac2Rxo0XKb8+7kA49/O0Qml9TDVRGL+inNxjHxHYxWeXOaPRYPH8Hfjymhe5VP3YUPiEnBEnWZf4wtzG8UyEee3AQZQiu3EmpKZFpHAcZz9kOT+8D6jrcCEbLLkYyMZz5umrb2y3SXydLRYLgfdscMaxdi3mozH5c0=",
-		"correct_signature512":"a68eda674f6b661a95555005e50072d7a9c97e9614274375c6abb7c3044a3db717609ad823d1e81581509675a9962c0ed3ded7d7cede86c1a5703b327c3a1d83ae1a5cdcd79455edae0160c20c54131af9c44d96dfab9b06052bcb5d1bfcc520bea7c4f2e91adbccb78b2540c200c4681e4f6911e0efbd790cf424a5319c0ac3f09537c67b9405a47c39273a9fb4db9e58b2cc2db381b9f73a991cc62eb5a3ffdb59527d8186687a33ca7c0fdffc9dabed73225b490c316f15f27cecd543773f6c289df3db3100b56e4e060dc02e0a5f4d1f391ff2a5dc43d0db69ec2a0aaf5a38e97680be93e7fcb3498e84427c3128f9b06d15c21d0c866dfe158c389c7996fc81959ab95734bc7b9661895a6ec609a1ef9492ab52324c42aa7e50d07f828a70a80e35fd20b01b5c903bbae0f7cfef506601723b1318a6babc48d4d71498d9823d5c09c2fdfdf6d636436b0d683e722fa9f353e68ab6f8bb9681e91a6feb3b31711756d738e0afa381572939d276db325898ae458c1470dca23c6991c21b08ac6a99ee087d250b3471e474b9de64076f9944a80ced57c66311f5b4e815378c46b3a061e8a5e1307e493b39662986637db6e6190db95d2aec6b75063c119dfff54e13114b60eb926fec4a97646e06cd17d681a822d282385368f9c77c6feff9f2fbd330ab4f53c33d7afa61c601ee387d63eea86fabc248e0f1e7f25fa0ac5f"
+		"correct_digest":"IqIan4esCq7PIDzIuorLjapmQnw=",
+		"correct_digest512":"4fcb652e4b6b414121929889ae1176f8aa778e935ad3dee458ae7e6879d26e81cfcf5be19c4c2e560165cc88d6249e2073ff616e557c4060659160eed36e05a6",
+		"correct_signature":"pNMYkLDNE39ivCg1vZHmt0rS9bwRmVji1lTb1bnLwMRkfTcObHd/8bk10HptS4Wwf5ICknjOIUkF9U8PrrIooht0xPwIu3D/dIMKXpd5mJJum1xWpwQxK9JRoBQZu2Wqs9GHAURNsQDj/RpIwZujukni+LbCdZqqzZOpGMBMBpTdpfbGOsZr+/fcpTDybrlis33Om2kbWm4QR9++jrhBPQYr5NCr7KddbcF9Y8RXxHA0CCvVZls1FoojWqqzDGgilPV5Gz5POSvbApSrxDhOZtMc7K5S0tQzDlzxKYB92Snk321IdNRr1MOblOjtkgFtwh9YcptgWoq8AUSxw3hIm1f8RRbyyudZdtqDpKdBYlO1qqQa+eyLLSDtO7gcyncKvn388V1+6p/JVz9c1ulOeEN0Kqfs6elRw1kqYjGW8rGG75LrpLpHb9aNAwlFUPGSQxREleezhrlFUSnssekfBybdIJGNpQWRAAK8Ug74XJ+ShK5XhGxPNhnzk9Znb1qo/MSnt5O5JqmdNJxN5omJuNZc1vwqq3m1JXMi7jDzhRYY431pbjV8tjnSfl0/Tj++v6CQOvkXYj6hsPT2knBL/+EyR0q/dSWM+fY3azZbwK9xVAWvb5jYBVnIODSLobaHMlC6UvYXOMjz5dnCOY0q5n2HJLX3D+qN8+r4B4OWwh4=",
+		"correct_signature512":"77246ae430225d93b49c36b74f315d800c239e9e9a5907e1241cac9332e93e06207862bd87990404234f28a6605c0d9e2f16cfa9db35cf4d0efcde74ed520ac2300fa52befb35e85a7ecc8fd7440dbfa79522bfda0a7beb5a1463db2bf28f12164c7c1e43107a078f06b45c4791cd731c960c901336f02dca7c2fa5f57e55445a1ade191fb909e549698c06dff7d4b08128c272e8a69b9dc2a356f7e8a3fbf9d47e78278589dd6a1c27eb226a3bd50467917087cfff08a41906e6a45ca14f7484567b43fa2c580c84539aef8ce5ec52f462460230762c0b3576e165b6564bb105b87a8d4ed7ef74e13f3bd0d70e4a1fcab697f45b6b232007551a91e0bb665e315835881fac1d3024db23ef628a6663c1a88a564fea058b5ae1ebafd8e0d86d8fd18b4266a47ce328fedff3407121de282dcb348150214d7f58f60ce5295dee510ad2536fe8c3800d2c39b2ed54c46edb33f66e60d048f0e0b05e0ab5b87ac68a1d051baff3b1c63841f593212b0fa1a6d2c2586ef60c295db5268cffe69f11188a22b492b7c114cf641dcdac96f3b6355936590f56a3a507ed18b7f79db77cf12c4508e577ebe80dac177ee75f5496620be3edc195e8fa728913f6e8e87bdd2490455d89fb2a472a3a5a6fb2d041d99baee18c47e1db7368cb90654e78e8ca76ecc5feae2ff73317d7b39233e09e497ec8d4d45e4144bcb12533f5520a04bb0"
 	},
 	"updateCenterVersion":"1",
 	"warnings":[]
