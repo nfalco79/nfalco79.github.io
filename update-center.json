@@ -2,7 +2,7 @@ updateCenter.post(
 {
 	"connectionCheckUrl":"https://www.google.com/",
 	"deprecations":{},
-	"generationTimestamp":"2024-10-14T15:55:13Z",
+	"generationTimestamp":"2025-02-07T07:15:28Z",
 	"id":"nfalco79",
 	"plugins":{
 		"bitbucket-steps":{
@@ -166,34 +166,39 @@ updateCenter.post(
 			"wiki":"https://github.com/nfalco79/ext-credentials-binding-plugin/wiki"
 		},
 		"k8s-provisioning":{
-			"buildDate":"Feb 24, 2024",
+			"buildDate":"Feb 06, 2025",
 			"dependencies":[
+				{
+					"name":"commons-compress-api",
+					"optional":false,
+					"version":"1.26.1-2"
+				},
 				{
 					"name":"kubernetes",
 					"optional":false,
-					"version":"4186.v1d804571d5d4"
+					"version":"4306.vc91e951ea_eb_d"
 				},
 				{
 					"name":"branch-api",
 					"optional":false,
-					"version":"2.1148.vce12cfcdf090"
+					"version":"2.1208.vf528356feca_4"
 				}
 			],
 			"developers":[],
 			"excerpt":"Extension of kubernetes plugin to manage PVC based on job life cycle.",
-			"gav":"com.github.nfalco79:k8s-provisioning:1.1.2",
+			"gav":"com.github.nfalco79:k8s-provisioning:1.1.3",
 			"labels":[],
 			"name":"k8s-provisioning",
 			"popularity":0,
-			"releaseTimestamp":"2024-02-24T18:09:45.00Z",
-			"requiredCore":"2.440.1",
+			"releaseTimestamp":"2025-02-06T20:27:04.00Z",
+			"requiredCore":"2.479.1",
 			"scm":"https://github.com/nfalco79/k8s-provisioning-plugin",
-			"sha1":"GraJwWdc2fkjl5ivism02scUyjo=",
-			"sha256":"WKAe/MCpYZPA6JQPVc6n/7DDUTxPBCTqx6mQnNrdbVs=",
-			"size":35557,
+			"sha1":"nXxFAUmQGw4CDxvE/oI1Werv3iM=",
+			"sha256":"ebidJs7GUpxPedQs1ttfZJ+9/j+tUVHKJ55goq1MODo=",
+			"size":35733,
 			"title":"Kubernates dynamic persistent volume provisioning",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/k8s-provisioning/1.1.2/k8s-provisioning-1.1.2.hpi",
-			"version":"1.1.2",
+			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/k8s-provisioning/1.1.3/k8s-provisioning-1.1.3.hpi",
+			"version":"1.1.3",
 			"wiki":"https://github.com/nfalco79/k8s-provisioning-plugin/wiki"
 		},
 		"workflow-steps":{
@@ -232,10 +237,10 @@ updateCenter.post(
 		"certificates":[
 			"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"
 		],
-		"correct_digest":"dIpcPJ/l+RJDFDeuOdXMT101d6A=",
-		"correct_digest512":"11d402dec7e4f7159621f51e6ef97458e212dfbbdbc866377e1e909db8c49ecbab470a9116df1268f77e1cfd009b1f1d4524aeb7e30db96764ce5fdf141ac998",
-		"correct_signature":"1MSy4EAAFNC+p79SLI8JMk1m0nD2js082jTgWKU0HLElIAVARYGLy9igT4E2RrJBYL7wwqJ6dEK1CMZRSSwcHmIA4tAoMrcDnRV0VXnxJkZ/d/2B1xBvT8uho4thef4Flya5uDgqmg4z61AxHlIqp0NY9ARjzXO0yVAHIfdE3fTjnqWjqoH/ookXs1lucEqkDmsM6/fRgnmQrJ7KdEmHv47lb4eQcSYPrf2xJEVXiuudDgn9V13EmM9+7sl9PdU++1izoX4yhoeYNRUWugOrmMAZM/u1boapAQJCQBtUR2hTxrmuUBtAyRVv0zGybbYtEGanP8AAbj9XqWjqaRNsvJyW3INECGfHPpm3YV3RZxvI6D4JBm98awfgfUsWzKpVLS/cZfcugDskUTTIxTkYKQG6dFJJT/DZqZXxIwNOUA5gvLuMRDl7FWkJZh0B3t+R56ZQqHmziPuDC9X/6VBkpTxOdXrV4MnXz64MRZ1+3UcQBeUZ8UEBtF8+Qa/iKoPQ11lv7Cz0k4gGsj3iNPo0R8WIdjNizbQ3mtYMeOnD0/96Wc8CkcAO6/zOK9DWUEZK9ci/BLcF1t0yUWgR2WhQukqc94wfvq+nGGYLeUNB/hngz4AmfYqZBVH78ovHu1o/J0sSYD6b0h64MUmuNRo7cGyjge2a1lj4OJOE6wInfwo=",
-		"correct_signature512":"9ac9e4817d5a0b263e971676b25cd877e272591ddb243884a8851a4f9ebcb067378e822f3f3a409c802d03911cba09e4a67e2a65e3e81c0ff12edc1f324a538dd098d619f1fd167b84ec0859dc277dd91880c42db33a9ac9398028c44a83086010be0fb58894729dda8ee4d72228c58e1321db2fb852de7b22384b0bb249623648bbdb7ecff88d1fa43237380122d0ec25f68f347054b15ca7e2501e7d8394ae13aa1d4439ee96a79dfbfcf4bb43a5a259b2910228b3791899e520fc90acfad54ff7a8eba56e1d25834b67e27c7e0b05141e96aa6f1613ae1a85eecdbd1ad3cc203573e4f13741327f14c4e5be842f8d1cf5bd1f0d7da4e526cedead13c95246ac32f3a5090f608f97a17545d7784d08421cd771df8b46204ab387319cc9d5a8a8694b980728d5f253fc6df28d17d659fd4c7a2245509a30c21f23ae8dd0f3fd785194df4be219a73ac74ceea5ea2b8cbe6e3b1fc471d6cf4ad0cfef46fc09b5322d012d5b74ba54ff7ea3bb15592aacecd20b174e5fa27bad6a19e30b89eeed00ce10eeb52a41f79dde49a9f6d860db793007a536e3d208f221e7ae2731d63be9a6b8a773d40a9cb430713f9db3cad8f0f505c86ed0825006a1997d25c9b06148081fe6c11efb2eec7bfdb2a4b22e4d6cccf3bd67021b8affb9cabbfb65321102e889cb9cab59386e653eebd56a9d158798b475e819c56cb304462d0e298893"
+		"correct_digest":"hLluYHZc/a711qQf5kPZbZj3srU=",
+		"correct_digest512":"ca9475fcb242275e1c2293917d1ee3853045afb3166cf4ba3a1bcf400155b887e5e25a68a5503d3821adca862cdf06e44a80893c9a88260efbb3b8827e6675d0",
+		"correct_signature":"rCX3tfBdZhlI0Nru9mEbY8tDNhDgV75MpoRuWZ3ztzrH1ZGAa3qKwq18rTFUgXZ34cdsIME7id675YKi0f0z6+fsGXX1VsReugyAWw+k3qBXwDuFse6HuLHMpzVtqm3Ty0F0YAu5yT0ByjgwkiqF37ogvbLMuIt/DpGxW2N54gut0ism2cTlqW1sxthVNmfKUzt6o455yvxGsPTxEyIKZuso8pzVj73gIVBr9HFLKmcbKz4K8TIMCE2ZZF0gnVmPlUEsN+w8lSZLoVIm/EhK0BMhOSFEa5XpqMAGsWegb9oCfdludyy83PpQTysTdXYIHoyzLhmmRz0tGMqU1Uo5BnBCrahoG4eYf1Bpn2S1b2w/xzFlJpBmM3PHBGCMfX9fmwkuPOZD42UJZId9DsOuf3DPEuBxYEuDPwzX5lMWHshWJysbvp/1FYQCNG8HbHHJixa+c3y+lxUx3Fv0Ft1fEUcwyMTBSVfjykDnxjHM6fmjFR8S5grXvSYiXfCpSiksiFGKYuCOII9N3JwNKsOm1fSDKviE5gtJx38XuVsOl103tz0OQAk9tV3iyCM/Q5/OquCyxe9caPPYOl+OmY3aUSyj8dmcmA1C3psWJsedMpRE0EBvWuyGtVc9iJFM4OUOs0h2yccCvCeUUL5H8vuCfb9V+luu8gEOA0SJR/D2vL8=",
+		"correct_signature512":"6b80d3349d416def0c9ab35fbbe93e905c94a7419e0726404fee4295fe310d0061583266e18669f9ad0d6a558bec43fae20414e13e6a45be7a3ef43a33ffbd5b9a2ff89f2f0639bb9094f5829e06aaeca9fc651da114374d9437c207452bc7346a38a2df31e6d1b8c730a0b7c01942674338f04493ea6fe31d1fc5474257a65c6acfea0985c2bc31f7af22e60f2411e1b6e2a4e80e353902651738e5be02e02aa3489ebdce1798cb7b297bfdde3afee7312a8e1ebc091995c6e86bfce153b757ed5ce4045b3e3037c63bbb8eacb26bf45eec99e802fc07c8021b8cbf88e7c67be7153ff410a72cb3c09f35eccbee1cf374d1dab8ed3cd563cdf12657931aeaf0ef7eab733984d891c383bc8c17f6d58dc92c6c1b144f7c83feb991bd893b9b2836d236b63b3097e1f521ec3db83855be1478781f5c1f3b9d348a5ac5bf7cb40cce7d5be06406582f263aea5d759d6b5f7ff30fcb65d055ea487aba8396cc93fe7d23ea3ece939489cee06912eba702d4355d1674924f9a7c3a0ff5d6271d8d4d449c0770a5f61760fe2b0e63b2cf13122e4eddf451d92f02791b7a2aa857e57c608f071f0d37076e3e8463170de3b883d1913f012b136c7faaaf358638facd4e7be26c133dfa07e2139a3647fc4c263f274d775890231fcff84120d39c1ba9c1c4361d55341a8563a2281bbf11ba4030c57ea9e1944c425c6fcf6b7eb6ba3fa3"
 	},
 	"updateCenterVersion":"1",
 	"warnings":[]
