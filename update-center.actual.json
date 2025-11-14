@@ -1,53 +1,58 @@
 {
 	"connectionCheckUrl":"https://www.google.com/",
 	"deprecations":{},
-	"generationTimestamp":"2025-05-14T07:40:35Z",
+	"generationTimestamp":"2025-11-14T16:38:39Z",
 	"id":"nfalco79",
 	"plugins":{
 		"bitbucket-steps":{
-			"buildDate":"Feb 24, 2024",
+			"buildDate":"Nov 04, 2025",
 			"dependencies":[
+				{
+					"name":"apache-httpcomponents-client-5-api",
+					"optional":false,
+					"version":"5.5-170.v023de017ccd7"
+				},
 				{
 					"name":"workflow-step-api",
 					"optional":false,
-					"version":"657.v03b_e8115821b_"
+					"version":"710.v3e456cc85233"
 				},
 				{
 					"name":"credentials",
 					"optional":false,
-					"version":"1319.v7eb_51b_3a_c97b_"
+					"version":"1447.v4cb_b_539b_5321"
 				},
 				{
 					"name":"handy-uri-templates-2-api",
 					"optional":false,
-					"version":"2.1.8-30.v7e777411b_148"
+					"version":"2.1.8-36.v85e4cb_234a_13"
 				},
 				{
 					"name":"jackson2-api",
 					"optional":false,
-					"version":"2.16.1-373.ve709c6871598"
+					"version":"2.20.0-420.v8a_08b_d57ca_05"
 				},
 				{
 					"name":"script-security",
 					"optional":false,
-					"version":"1326.vdb_c154de8669"
+					"version":"1378.vf25626395f49"
 				}
 			],
 			"developers":[],
 			"excerpt":"Workflow step to get informations about repository hosted at Bitbuket Cloud.",
-			"gav":"com.github.nfalco79:bitbucket-steps:1.0.2",
+			"gav":"com.github.nfalco79:bitbucket-steps:1.0.3",
 			"labels":[],
 			"name":"bitbucket-steps",
 			"popularity":0,
-			"releaseTimestamp":"2024-02-24T19:23:52.00Z",
-			"requiredCore":"2.440.1",
-			"scm":"https://github.com/nfalco79/bitbucket-steps-plugin",
-			"sha1":"Eawi9V2FyGVV5WajRhqj8toCUco=",
-			"sha256":"8HdAYkMDRcFxfKhEKaugCIAgVIAFa4KCP0FIn5rQaSU=",
-			"size":1893859,
+			"releaseTimestamp":"2025-11-04T18:41:56.00Z",
+			"requiredCore":"2.504.3",
+			"scm":"${project.url}",
+			"sha1":"XTmS8BFI8PGEyAq0Thpu/QBjQzs=",
+			"sha256":"4YwuT4Bo6eD3Oxci6Hqu0XfrhTOnNFYSVTubP8AATC8=",
+			"size":78692,
 			"title":"Pipelines step for Bitbucket Cloud",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/bitbucket-steps/1.0.2/bitbucket-steps-1.0.2.hpi",
-			"version":"1.0.2",
+			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/bitbucket-steps/1.0.3/bitbucket-steps-1.0.3.hpi",
+			"version":"1.0.3",
 			"wiki":"https://github.com/nfalco79/bitbucket-steps-plugin/wiki"
 		},
 		"bitbucket-trait":{
@@ -87,117 +92,117 @@
 			"wiki":"https://github.com/nfalco79/bitbucket-trait-plugin/wiki"
 		},
 		"branch-properties":{
-			"buildDate":"Oct 10, 2024",
+			"buildDate":"Nov 04, 2025",
 			"dependencies":[
 				{
 					"name":"branch-api",
 					"optional":false,
-					"version":"2.1178.v969d9eb_c728e"
+					"version":"2.1255.v2f5fe203584a_"
 				}
 			],
 			"developers":[],
 			"excerpt":"Allows to add action to run a build in a multi-branch projects specifying a different set of parameters for each branch.",
-			"gav":"com.github.nfalco79:branch-properties:1.0.2",
+			"gav":"com.github.nfalco79:branch-properties:1.0.3",
 			"labels":[],
 			"name":"branch-properties",
 			"popularity":0,
-			"releaseTimestamp":"2024-10-10T16:46:22.00Z",
-			"requiredCore":"2.462.3",
-			"scm":"https://github.com/nfalco79/branch-properties-plugin",
-			"sha1":"e+SrKXobo/lI3weRB7Dx0q+uapw=",
-			"sha256":"flLhbWeyvrDkAhODjU3Puw6X9Xc6+GEv315oCeYkvhw=",
-			"size":51571,
+			"releaseTimestamp":"2025-11-04T14:25:53.00Z",
+			"requiredCore":"2.504.3",
+			"scm":"${project.url}",
+			"sha1":"/KPZoh4fYHgvbJoWDkRqsfVccVs=",
+			"sha256":"F5rjn1xTb9wsDT8YsLn3caZKI3dDYB7wuQekqjEIPRg=",
+			"size":53406,
 			"title":"Define branch properties for MultiBranch Pipeline Jobs",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/branch-properties/1.0.2/branch-properties-1.0.2.hpi",
-			"version":"1.0.2",
+			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/branch-properties/1.0.3/branch-properties-1.0.3.hpi",
+			"version":"1.0.3",
 			"wiki":"https://github.com/nfalco79/branch-properties-plugin/wiki"
 		},
 		"ext-configfiles":{
-			"buildDate":"Feb 24, 2024",
+			"buildDate":"Nov 04, 2025",
 			"dependencies":[
 				{
 					"name":"config-file-provider",
 					"optional":false,
-					"version":"968.ve1ca_eb_913f8c"
+					"version":"1002.v93e06b_792d44"
 				}
 			],
 			"developers":[],
 			"excerpt":"Extension of config files plugin to manage pypirc and ruby.",
-			"gav":"com.github.nfalco79:ext-configfiles:1.0.4",
+			"gav":"com.github.nfalco79:ext-configfiles:1.0.5",
 			"labels":[],
 			"name":"ext-configfiles",
 			"popularity":0,
-			"releaseTimestamp":"2024-02-24T18:33:50.00Z",
-			"requiredCore":"2.440.1",
-			"scm":"https://github.com/nfalco79/ext-config-files-plugin",
-			"sha1":"pri7FrLPrpZvkerX5IIQP7Z55HA=",
-			"sha256":"LEnTmwhUUucGfjljicUPWQNlSIu4/mzepwG27izPBJY=",
-			"size":385083,
+			"releaseTimestamp":"2025-11-04T12:25:59.00Z",
+			"requiredCore":"2.504.3",
+			"scm":"${project.url}",
+			"sha1":"WQKvgUxv94WE9lPZWpc5fkTH/1I=",
+			"sha256":"tJDFJaSp0/Gcbg8qfNRKky2RqwSatfUroIaHTPTPTj4=",
+			"size":390546,
 			"title":"Extension of config files provider",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/ext-configfiles/1.0.4/ext-configfiles-1.0.4.hpi",
-			"version":"1.0.4",
+			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/ext-configfiles/1.0.5/ext-configfiles-1.0.5.hpi",
+			"version":"1.0.5",
 			"wiki":"https://github.com/nfalco79/ext-configfiles-plugin/wiki"
 		},
 		"ext-credentials-binding":{
-			"buildDate":"Jan 20, 2022",
+			"buildDate":"Nov 04, 2025",
 			"dependencies":[
 				{
 					"name":"credentials-binding",
 					"optional":false,
-					"version":"1.27"
+					"version":"702.vfe613e537e88"
 				}
 			],
 			"developers":[],
 			"excerpt":"Allows credentials to be bound to environment variables for use from miscellaneous build steps.",
-			"gav":"com.github.nfalco79:ext-credentials-binding:1.0.1",
+			"gav":"com.github.nfalco79:ext-credentials-binding:1.0.3",
 			"labels":[],
 			"name":"ext-credentials-binding",
 			"popularity":0,
-			"releaseTimestamp":"2022-01-20T19:42:13.00Z",
-			"requiredCore":"2.303.1",
-			"scm":"https://github.com/nfalco79/ext-credentials-binding",
-			"sha1":"d6uKa/CVF9UP4HkOYMHlfRSt79k=",
-			"sha256":"/K7A/vR0DXaCDaRHy94X9ozxgnLGGEOpxTYCMURXPQo=",
-			"size":16420,
+			"releaseTimestamp":"2025-11-04T10:48:17.00Z",
+			"requiredCore":"2.504.3",
+			"scm":"${project.url}",
+			"sha1":"BaEUQlodi1K6Cb+l/g7HQX59dTM=",
+			"sha256":"VZUvaFDWSzv5CrTsjMj0/9ahUOy2cWkhdq5WU+uS6xg=",
+			"size":18198,
 			"title":"Extension for Credentials Binding",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/ext-credentials-binding/1.0.1/ext-credentials-binding-1.0.1.hpi",
-			"version":"1.0.1",
+			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/ext-credentials-binding/1.0.3/ext-credentials-binding-1.0.3.hpi",
+			"version":"1.0.3",
 			"wiki":"https://github.com/nfalco79/ext-credentials-binding-plugin/wiki"
 		},
 		"k8s-provisioning":{
-			"buildDate":"May 13, 2025",
+			"buildDate":"Nov 04, 2025",
 			"dependencies":[
 				{
 					"name":"commons-compress-api",
 					"optional":false,
-					"version":"1.26.1-2"
+					"version":"1.28.0-1"
 				},
 				{
 					"name":"kubernetes",
 					"optional":false,
-					"version":"4324.vfec199a_33512"
+					"version":"4384.v1b_6367f393d9"
 				},
 				{
 					"name":"branch-api",
 					"optional":false,
-					"version":"2.1214.v3f652804588d"
+					"version":"2.1255.v2f5fe203584a_"
 				}
 			],
 			"developers":[],
 			"excerpt":"Extension of kubernetes plugin to manage PVC based on job life cycle.",
-			"gav":"com.github.nfalco79:k8s-provisioning:1.1.5",
+			"gav":"com.github.nfalco79:k8s-provisioning:1.1.6",
 			"labels":[],
 			"name":"k8s-provisioning",
 			"popularity":0,
-			"releaseTimestamp":"2025-05-13T18:14:13.00Z",
-			"requiredCore":"2.479.3",
+			"releaseTimestamp":"2025-11-04T10:05:50.00Z",
+			"requiredCore":"2.504.3",
 			"scm":"https://github.com/nfalco79/k8s-provisioning-plugin",
-			"sha1":"sYgFGpK6YSZ4H22ycCG59VG88BM=",
-			"sha256":"h781Nb9cRE/WmUj1fKiHDQWdSVeuzxKxd2FMwcy4jKE=",
-			"size":35641,
+			"sha1":"mAv4HRMeTCjuL7PzaJ1Ov4jvyfM=",
+			"sha256":"ZwGqvHdj/74iAXYMJqAdwHbHC84RNS57g+/nhJFpQyU=",
+			"size":35920,
 			"title":"Kubernates dynamic persistent volume provisioning",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/k8s-provisioning/1.1.5/k8s-provisioning-1.1.5.hpi",
-			"version":"1.1.5",
+			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/k8s-provisioning/1.1.6/k8s-provisioning-1.1.6.hpi",
+			"version":"1.1.6",
 			"wiki":"https://github.com/nfalco79/k8s-provisioning-plugin/wiki"
 		},
 		"workflow-steps":{
@@ -236,10 +241,10 @@
 		"certificates":[
 			"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"
 		],
-		"correct_digest":"25rN4heprCOiUi05StXT+UPDTU4=",
-		"correct_digest512":"406d6590d89481feb21e2639254cd4c61554df4e1b62268306763250c54b7a7736e2a6d648a10528ed3c99bcf5eb658e23a19f353db4fdde73907f22b5b228f0",
-		"correct_signature":"wZALbvtd/rFGbx20kzk4Eh8U4aGvHV2oTo359aL7XpUVc3cN/nv1kqyW0ox9qgGlLh3PLS/RfF7EAJJIwLEtGKfac+zMQBW4CDkVO3X493ej8faw2+zv7o5emsmgm2wJoM5UKS+87uRqrIhbBAOE+0HaWg+El44tB/6F7kNtbG+zkMAzeCMkqgC34v0RGTaBH1QBG6u/n9GjGDlDqrn5Y4lifWO5VmsdXXbBy/unfZN4ayciXR+HwOwSZyd7U3w+ZUY2RC/UOyQBI/7POAGvAdQFarf0fl/OTUNWb1XpdCKA7CE5edGvNFySTWbFy6mvG+7EtEMHZYGSeG9SfQS1RSvjeOWrw2Q+jses4lFx59X0/7IXKlHKiOaiUZx978mb+eucnhpaWPWhHFbu46YcUYYNKoSo63GyqEwmYR0aMnlirSlonUNO+/t/eAwyS/oR8Dizqca8Ap24S50eOV17TDsKtfgUzvSvCp39HxK8PL65n6NAovPGEyPuRTvlOaA7hyMwSoW+3nqy7E8exfFEll40oH+IpfloDvcyTtdkhHYmDqf8zc7LZOuo2TMy8Rr5KSWzBFe+dQqa8z+TMm+IH1OF6x0MpTatJ9GHN9ct2XFQIl1Iti4natlTHxnw1SpbMjqeqPfYK7eQFUvaIea7XvANb7fD/hoTs/EQ1ncBGxw=",
-		"correct_signature512":"006f476725510d924ee1556cf88428543382b94f05d22e66a405984388ecf864630b9de174ac5408ab359543d4b2d481ed48a7618957bde1601ae3d1bf53c93a3ae72854f03836242a2da19a2826646cd4578859613c588dcc30cb0df81b310fa17362f48de0c8b55d6f154f047dd73683b85decb0b48932ca44bd78a390f7a41d55da8f24f658516fbb9ab237fe7ecf37f3f84487fd8ae0718b98b18430b96af496696b622c941f63d408e55c98e3e751de8b8e971363777a42464f6d2f93606ad298ea7859cc5af0fedfd7b566a1c1029aa35c2ce32c959e207b27f0991630e6453094e1a8e42d6c94141a863b81f7b0eded9c1789c9871cbd7614d1f0ff2639b46b7ce1a8579ef612faf5e98a5e8dbac65ac482eeae45bd7e5cada5172c3183975b748c4d615c2bc877ed243f6d0247b21ddd8d4fd13a5b000ba048430e3be3f9d37f8c58c6013b8c1fce11fdf3a142def41d5cec76bcfdff226ffda489efad4c2a733cadae6d62da8c1d23144010532775ff8a3a3531b142b8f316d03ed4ffa24b0c138b10986c8ad3dc6d8009f0504b2ef2b9026433abf74f21b225c2eaf35ea557811a2cd391ddc3378ab7ad5200e073c5c231c9da20fc29fddce2c9183bb38a36451fc16be458b911f69033d556c089829f03b0f3b90078fdfd55a9c4caec4a9de3be027c187f761eb5866c1f9d117916c4fc9f893a8a27c7943dd567"
+		"correct_digest":"+R/blfOrjpe0OF00FdLYmD0bjuQ=",
+		"correct_digest512":"3973d49a84caa10b26d7114e655ca0911e9e1c877c366fce4f524d59da629fcae68d8ab3017a4a794c0d831e6597fcb67171e852e5acda89dfa891428c05df2a",
+		"correct_signature":"t84VfHnlI78BaVoD85xekp+zA4NSpJGqPUWPHOKDv7wUeRdb67nuK9LMWO/0Wwftq8XNZWpmkDZ/JT7oc8qgC2vN5C56+9gYOAjGZwtuPf7BTycb+bkgqsxwo5kyE33Q4ripRGtyfvi0lPHj1A06npRkUAfJ3in5lE1ZmqSxAFWaBBkzikDr9WUSu86iZcrX30p3z/V1hfNouYrz4b+L+mpZKMs6mWNbDxQ5TDZOjpnJ1Eb4W85SGfGYEjzoXpjVPWBOtHE1+ZDWrz1vrBLcdg1FwCbwuc5ZjDr/HoOXGLX7cOwobDCEcFUNfbI6S+BUGWwUj/MtM9u8S3c1pzUxcPeZC/UjnUkpBVEhpex8FOYKRkm53jckJEMCFgjPFCLVYMM555Jd/jd5ejz+OYeqGp10t2UpLPPBzGxBU+wQxdDYnODULk7A3enkKPeqD+vDhhDvuoSG3ncfQ2ga5L3YV6GZJ4xNWUH82oxduxEyAL0rR75+NS6oRFjmBO5CeZAtIREoTY0TYKzwpuK+wHcfGzGgzXYgNFYMYUU+dHXqrbz+8nPZMta5ocEDcGc059Ly/+uSOAuLTJWyQ7LGyWmfgZ6+5f/reB3mE0Yh6JhnRVONP6PdI69Wzavl+sYPYvAozLUjG4hzO4UvkHvvnPn4KjczhCh8JfdkVcw9HTc9X8E=",
+		"correct_signature512":"c689de2ecd77e33d457cf9d59bb6a6c4f9ebc44667cfa50171898a4dd4c6fd231c6030caaccf9c5ff1666d74794652baeecc7b263f55b41dde1a25fbc3cbcfeeeded05c0d95dc100044af4d41684adf81ccec8036167167720757de48e948166278a939adf6b8f33bfe48f63d982f7dae9ef87d105d29d6712286e7347b671e95fe332bd210bb9ddc74384f2e0a7110459ca265d33daf628b82b88edf9eef0de96246803db897cb333631cfbf35238a9afe87b2ac73a041327ab73bdffec0e3c8922d033da4f14fae1afc7da012458b2d0b40848b9cf4fb2ffcfbad258a0077702d100a245c3b63c35118c2b1e8c7fc798aea1f6f77216335846475ea09eac0f8a9a7137c90c0480bd95b028b9f711b47090f640ce8e2af8b6e02e53ced92c24af5651b26dee5695f2b563560f8b100080f40f864a8fc132b5e5e2adc027285c967bb8173ff2717dabd24aa400a07964e421be0be4187df304b7cf3ccfba48ef9f27fe62ad43a13975d5248af6cf3f06b4f3198eccb584eba25fe5339845c266425fd8429e33f201a704f9ac41b11eeeb803cc63afa5a72a77ed14e56088b329350d6f2c7b14aea427e7f4a0db7a9c29dc0e694d21612edfe0b675e73830a3296388a104427abc8ddc5cbd82a5ebd724da17389e4253dae50b92738595528c0b4e0df1f0fe1d88f40619ca31f71980d749dbffd68073a2a29fedce604a253b32"
 	},
 	"updateCenterVersion":"1",
 	"warnings":[]
