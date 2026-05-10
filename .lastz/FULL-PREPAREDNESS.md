@@ -21,7 +21,7 @@ To complete this event theme, simply claim soldiers from the training camps. For
 ### Mod Vehicle Boost
 This event theme must be completed only by killing boomers. Depending on your HQ level, you'll need to complete 10 (160 fuel) to 15 (240 fuel) rallies. The 3-star hero Kate allows you to earn 300 fuel throughout the day. Do not use wrences or blueprints under any circumstances; you must accumulate them and use them on Monday in the last event theme of the VS.
 
-### Shelder Upgrade and Age of Science
+### c
 Ignore them; earning points in this event theme except on Tuesdays/Wednesdays and Fridays wastes speedup.
 
 ## TIPS:
@@ -33,4 +33,9 @@ You absolutely don't need to use up all the experience you have at that moment; 
 For HQs of 25 or higher, simply claim soldiers from the barracks. If you're close to the top players in the Full Preparedness rankings for the day, claim them 10-15 minutes before the end of the event theme to surprise your opponent. At high HQ levels above 26, you'll earn more than 500,000 points.
 
 ### Mod Vehicle Boost
-This appears twice on Monday. You complete one of these as described above with just the rallies, while in the other (you choose whether it's during the 3rd or 6th event theme) you use keys and blueprints. Keys are a precious resource and difficult to obtain. You don't have to use all the keys and blueprints; always think about your target, i.e., which chest in the V
+This appears twice on Monday. You complete one of these as described above with just the rallies, while in the other (you choose whether it's during the 3rd or 6th event theme) you use keys and blueprints. Keys are a precious resource and difficult to obtain. You don't have to use all the keys and blueprints; always think about your target, i.e., which chest in the VS you want to open it, stop.
+
+### Shelder Upgrade and Age of Science
+Those who usually get the "daily treasure" can purchase it during the Shelder Upgrade or Age of Science event themes. It will allow you to earn 15,000 points with the purchase of 100 diamonds and open the first green chest.
+
+In general, during VS, getting 4M points won't benefit you; stop at 3M. Always do the math before consuming items/resources to understand how far you can easily get and where you'll need to use them all to get there. Ensure always having supplies allows you to consistently earn VS points instead of using everything one week and having nothing for the next. Item management is key.
