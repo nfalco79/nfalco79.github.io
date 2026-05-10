@@ -21,7 +21,7 @@ To complete this event theme, simply claim soldiers from the training camps. For
 ### Mod Vehicle Boost
 This event theme must be completed only by killing boomers. Depending on your HQ level, you'll need to complete 10 (160 fuel) to 15 (240 fuel) rallies. The 3-star hero Kate allows you to earn 300 fuel throughout the day. Do not use wrences or blueprints under any circumstances; you must accumulate them and use them on Monday in the last event theme of the VS.
 
-### c
+### Shelder Upgrade and Age of Science
 Ignore them; earning points in this event theme except on Tuesdays/Wednesdays and Fridays wastes speedup.
 
 ## TIPS:
