@@ -2,7 +2,7 @@ updateCenter.post(
 {
 	"connectionCheckUrl":"https://www.google.com/",
 	"deprecations":{},
-	"generationTimestamp":"2025-11-14T16:38:39Z",
+	"generationTimestamp":"2026-06-22T13:47:59Z",
 	"id":"nfalco79",
 	"plugins":{
 		"bitbucket-steps":{
@@ -93,29 +93,29 @@ updateCenter.post(
 			"wiki":"https://github.com/nfalco79/bitbucket-trait-plugin/wiki"
 		},
 		"branch-properties":{
-			"buildDate":"Nov 04, 2025",
+			"buildDate":"Jun 22, 2026",
 			"dependencies":[
 				{
 					"name":"branch-api",
 					"optional":false,
-					"version":"2.1255.v2f5fe203584a_"
+					"version":"2.1280.v0d4e5b_b_460ef"
 				}
 			],
 			"developers":[],
 			"excerpt":"Allows to add action to run a build in a multi-branch projects specifying a different set of parameters for each branch.",
-			"gav":"com.github.nfalco79:branch-properties:1.0.3",
+			"gav":"com.github.nfalco79:branch-properties:1.0.4",
 			"labels":[],
 			"name":"branch-properties",
 			"popularity":0,
-			"releaseTimestamp":"2025-11-04T14:25:53.00Z",
-			"requiredCore":"2.504.3",
+			"releaseTimestamp":"2026-06-22T15:21:32.00Z",
+			"requiredCore":"2.528.3",
 			"scm":"${project.url}",
-			"sha1":"/KPZoh4fYHgvbJoWDkRqsfVccVs=",
-			"sha256":"F5rjn1xTb9wsDT8YsLn3caZKI3dDYB7wuQekqjEIPRg=",
-			"size":53406,
+			"sha1":"ZyhwGQF66XfltXgzRHDnN360P8I=",
+			"sha256":"PkNNlNDKoND5iLSSNZRFMxKJWoQJQF8331hWxKSsWFc=",
+			"size":53361,
 			"title":"Define branch properties for MultiBranch Pipeline Jobs",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/branch-properties/1.0.3/branch-properties-1.0.3.hpi",
-			"version":"1.0.3",
+			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/branch-properties/1.0.4/branch-properties-1.0.4.hpi",
+			"version":"1.0.4",
 			"wiki":"https://github.com/nfalco79/branch-properties-plugin/wiki"
 		},
 		"ext-configfiles":{
@@ -242,10 +242,10 @@ updateCenter.post(
 		"certificates":[
 			"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"
 		],
-		"correct_digest":"+R/blfOrjpe0OF00FdLYmD0bjuQ=",
-		"correct_digest512":"3973d49a84caa10b26d7114e655ca0911e9e1c877c366fce4f524d59da629fcae68d8ab3017a4a794c0d831e6597fcb67171e852e5acda89dfa891428c05df2a",
-		"correct_signature":"t84VfHnlI78BaVoD85xekp+zA4NSpJGqPUWPHOKDv7wUeRdb67nuK9LMWO/0Wwftq8XNZWpmkDZ/JT7oc8qgC2vN5C56+9gYOAjGZwtuPf7BTycb+bkgqsxwo5kyE33Q4ripRGtyfvi0lPHj1A06npRkUAfJ3in5lE1ZmqSxAFWaBBkzikDr9WUSu86iZcrX30p3z/V1hfNouYrz4b+L+mpZKMs6mWNbDxQ5TDZOjpnJ1Eb4W85SGfGYEjzoXpjVPWBOtHE1+ZDWrz1vrBLcdg1FwCbwuc5ZjDr/HoOXGLX7cOwobDCEcFUNfbI6S+BUGWwUj/MtM9u8S3c1pzUxcPeZC/UjnUkpBVEhpex8FOYKRkm53jckJEMCFgjPFCLVYMM555Jd/jd5ejz+OYeqGp10t2UpLPPBzGxBU+wQxdDYnODULk7A3enkKPeqD+vDhhDvuoSG3ncfQ2ga5L3YV6GZJ4xNWUH82oxduxEyAL0rR75+NS6oRFjmBO5CeZAtIREoTY0TYKzwpuK+wHcfGzGgzXYgNFYMYUU+dHXqrbz+8nPZMta5ocEDcGc059Ly/+uSOAuLTJWyQ7LGyWmfgZ6+5f/reB3mE0Yh6JhnRVONP6PdI69Wzavl+sYPYvAozLUjG4hzO4UvkHvvnPn4KjczhCh8JfdkVcw9HTc9X8E=",
-		"correct_signature512":"c689de2ecd77e33d457cf9d59bb6a6c4f9ebc44667cfa50171898a4dd4c6fd231c6030caaccf9c5ff1666d74794652baeecc7b263f55b41dde1a25fbc3cbcfeeeded05c0d95dc100044af4d41684adf81ccec8036167167720757de48e948166278a939adf6b8f33bfe48f63d982f7dae9ef87d105d29d6712286e7347b671e95fe332bd210bb9ddc74384f2e0a7110459ca265d33daf628b82b88edf9eef0de96246803db897cb333631cfbf35238a9afe87b2ac73a041327ab73bdffec0e3c8922d033da4f14fae1afc7da012458b2d0b40848b9cf4fb2ffcfbad258a0077702d100a245c3b63c35118c2b1e8c7fc798aea1f6f77216335846475ea09eac0f8a9a7137c90c0480bd95b028b9f711b47090f640ce8e2af8b6e02e53ced92c24af5651b26dee5695f2b563560f8b100080f40f864a8fc132b5e5e2adc027285c967bb8173ff2717dabd24aa400a07964e421be0be4187df304b7cf3ccfba48ef9f27fe62ad43a13975d5248af6cf3f06b4f3198eccb584eba25fe5339845c266425fd8429e33f201a704f9ac41b11eeeb803cc63afa5a72a77ed14e56088b329350d6f2c7b14aea427e7f4a0db7a9c29dc0e694d21612edfe0b675e73830a3296388a104427abc8ddc5cbd82a5ebd724da17389e4253dae50b92738595528c0b4e0df1f0fe1d88f40619ca31f71980d749dbffd68073a2a29fedce604a253b32"
+		"correct_digest":"w5eTRtAD9pGoeTAi8cSB6BTBQGI=",
+		"correct_digest512":"f56c69d590ba8adb24c47eafdcb47f1a18d088b0c5226eccde23ddba9dcfb20f01e0f5824f4675378c55bd8335b5361cf08224faf2b84bf4703d61778ac52ef1",
+		"correct_signature":"M3JwEAnYiRFGa35lFnL3znjc4L1O4+mFkh3jPxvUmJitej4UMwyxE2HLfn0kJXLoOfSGTII9Bf4hv4ra+U+H7EufBMiEASl0kKV7P7yyGv0Prxnnqje9ziQlfGs/n0Oe75F36e8LV7E2wWm5yPVEDrH56xuOwe4xaj7RXup6lsD95ZbD95vHvdzWNZ2IyFs9LUECh9vR4ZmraurbYzias+RFI0UPY1pnlFWWtrOPhkANdqHZZ6zIVbCcDXPXuMoLb6CaWkPxKkt+bsDQlY+p/3UlCO72+NLj7PyzjnZgDD8+eCvaQ6Qc9MmJM7P2ID9NwwNB5jTmLA68Qa0zueNbaEekzozhPhaGbona/bEk4BPDNkpuI544gpYqC9ViozoSLtQMhcaHY8WOc+xvvr35Sk6XtCERGx01fiX5MWtD+bJr00XEFGG9YbCCsxNWx0/tCfEcvJGLY9UgOB+07VZPr8yL8J/1y5mAGUSVeLNgtiU49d+cAWPqLOfvFb7qNzV8R2vELxhM/UvvlyY+ZcH+m5UyS1aoeg53fvATjxzQ7LuHgymI1rYMJ8yxR4vNHAgA4ZwAHDQ6tCGKfJjqyS9i2XZ0byVMh+toPDoQKnEXJtA8eno+NgMlkdP9mMVnhSCYSYZ1qXAkQIMIjrE4IVwWrJMim9SVppdAE2ersoNTlNc=",
+		"correct_signature512":"659fda87142f404bc7098ca970b605275d53e02a381b1d141bd4bd30e6fc8d5791750df3aec472192ecd58c5d573fea820bcbfc3afe2b70806fc20153010b363159867133b8bed40b4971de46a5186350016d947a9733b11f7d51ddb6b9abf02791fb93d7ff9d329b6f3115267cd8cae0b0149a6aa9aa433fd864e3f9560b3b44921d5a16fcebc730927166301920da16654b9bc6ec5d586ef9b3a7d5293ae0eacd4dcb202387e9214bc6e60131da74850fe9dd0f4f1713a92cb702296ba0a272863efdd4e4c40c7170a7fbcb53ef49560f509a9a219be8852acd8c45598d488d0fbadfbf9e168b7c852c2bf42c87ea450296d99063cee40523ebbb2522fcd13bacf6ea0cebdc7ffec1d53d4fb585c4ba392f4e8f597876cf17af39ce42e7004d657a2e3b5491230956a04251bfd9b5c1558d445fee36280e8392bdac693319f2db234a4e2dbb44ad39ca4cbae9329e1221a517b8ee58d2e41f02531770f5e6bd6cad5f8efffa27fedbd73ff442db6557f37d7ab809b79ed62dc965b9f817b3e16c3ce864415128b3d450da1ada4205e138ebf20a1627226fbff047c98649adb1e4f15df92f1d8f9378573a616629a7c6913fbf69269621d2a3e7dbc32a7d16ff0c8e3622e2dee0cb34636910d90f06fee497ae731f5f00b8673c0b8bc0b9d2762de7abbc0f3461d86d26a426edb7b3e86a4cc4f8b5019bad31cc9d90adf26b0"
 	},
 	"updateCenterVersion":"1",
 	"warnings":[]
