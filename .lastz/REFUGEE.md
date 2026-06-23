@@ -1,7 +1,7 @@
 # Recruiting Refugees
 
 If you've faced the Fury Lord every day, on Tuesday you'll have at least 15.5k tickets (depending on your damage ranking, you may have more).
-Each round, there are three refugees of various colors; every 10th round, the system guaranteed one orange.
+Each round, there are three refugees of various colors; every 10th recruits (not rounds), the system guaranteed one orange.
 Scenarios:
 - 3 greens, skip to the next round by paying 250 diamonds
 - 2 greens, skip to the next round by paying 250 diamonds
