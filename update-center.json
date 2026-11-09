@@ -2,9 +2,55 @@ updateCenter.post(
 {
 	"connectionCheckUrl":"https://www.google.com/",
 	"deprecations":{},
-	"generationTimestamp":"2026-06-22T13:47:59Z",
+	"generationTimestamp":"2026-11-09T16:49:56Z",
 	"id":"nfalco79",
 	"plugins":{
+		"bitbucket-code-insights":{
+			"buildDate":"Nov 09, 2026",
+			"dependencies":[
+				{
+					"name":"checks-api",
+					"optional":false,
+					"version":"422.vc7e8b_51488c6"
+				},
+				{
+					"name":"workflow-cps",
+					"optional":false,
+					"version":"4383.v04fa_a_3d67b_d9"
+				},
+				{
+					"name":"workflow-job",
+					"optional":false,
+					"version":"1571.1580.v18e46842c125"
+				},
+				{
+					"name":"cloudbees-bitbucket-branch-source",
+					"optional":false,
+					"version":"937.0.1"
+				},
+				{
+					"name":"junit",
+					"optional":true,
+					"version":"1425.v9c7318dca_96d"
+				}
+			],
+			"developers":[],
+			"excerpt":"Allows users to publish Code Insights report on Bitbucket Cloud.",
+			"gav":"io.github.nfalco79:bitbucket-code-insights:1.0.2",
+			"labels":[],
+			"name":"bitbucket-code-insights",
+			"popularity":0,
+			"releaseTimestamp":"2026-11-09T17:19:18.00Z",
+			"requiredCore":"2.555.3",
+			"scm":"https://github.com/nfalco79/bitbucket-code-insights-plugin",
+			"sha1":"bKKRRXwoT4luVmIf80HL4WMqg/4=",
+			"sha256":"Y16Q2xQDsCIHAVpyoXlFh5I/nbyUZKK15XeIsZQC6FU=",
+			"size":29841,
+			"title":"Bitbucket Code Insights",
+			"url":"https://repo1.maven.org/maven2/io/github/nfalco79/bitbucket-code-insights/1.0.2/bitbucket-code-insights-1.0.2.hpi",
+			"version":"1.0.2",
+			"wiki":"https://github.com/nfalco79/bitbucket-code-insights-plugin/wiki"
+		},
 		"bitbucket-steps":{
 			"buildDate":"Nov 04, 2025",
 			"dependencies":[
@@ -170,6 +216,52 @@ updateCenter.post(
 			"version":"1.0.3",
 			"wiki":"https://github.com/nfalco79/ext-credentials-binding-plugin/wiki"
 		},
+		"github-steps":{
+			"buildDate":"Nov 09, 2026",
+			"dependencies":[
+				{
+					"name":"commons-lang3-api",
+					"optional":false,
+					"version":"3.20.0-109.ve43756e2d2b_4"
+				},
+				{
+					"name":"workflow-step-api",
+					"optional":false,
+					"version":"724.v538c2362b_dfb_"
+				},
+				{
+					"name":"credentials",
+					"optional":false,
+					"version":"1511.v2e3cb_0008ef0"
+				},
+				{
+					"name":"jackson2-api",
+					"optional":false,
+					"version":"2.22.2-445.vdc613f1d8012"
+				},
+				{
+					"name":"script-security",
+					"optional":false,
+					"version":"1422.v06869826dd9b_"
+				}
+			],
+			"developers":[],
+			"excerpt":"Workflow step to get informations about repository hosted at Bitbuket Cloud.",
+			"gav":"io.github.nfalco79:github-steps:1.0.0",
+			"labels":[],
+			"name":"github-steps",
+			"popularity":0,
+			"releaseTimestamp":"2026-11-09T17:39:57.00Z",
+			"requiredCore":"2.555.3",
+			"scm":"${project.url}",
+			"sha1":"W6+EIxerBoRxfxHw7lM/ty+dSPM=",
+			"sha256":"qfe4OrEloHLQd3LAU0orokZkiEYKc4blm35Bftc6JmA=",
+			"size":1157240,
+			"title":"Pipelines step for GitHub",
+			"url":"https://repo1.maven.org/maven2/io/github/nfalco79/github-steps/1.0.0/github-steps-1.0.0.hpi",
+			"version":"1.0.0",
+			"wiki":"https://github.com/nfalco79/github-steps-plugin/wiki"
+		},
 		"k8s-provisioning":{
 			"buildDate":"Nov 04, 2025",
 			"dependencies":[
@@ -242,10 +334,10 @@ updateCenter.post(
 		"certificates":[
 			"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"
 		],
-		"correct_digest":"w5eTRtAD9pGoeTAi8cSB6BTBQGI=",
-		"correct_digest512":"f56c69d590ba8adb24c47eafdcb47f1a18d088b0c5226eccde23ddba9dcfb20f01e0f5824f4675378c55bd8335b5361cf08224faf2b84bf4703d61778ac52ef1",
-		"correct_signature":"M3JwEAnYiRFGa35lFnL3znjc4L1O4+mFkh3jPxvUmJitej4UMwyxE2HLfn0kJXLoOfSGTII9Bf4hv4ra+U+H7EufBMiEASl0kKV7P7yyGv0Prxnnqje9ziQlfGs/n0Oe75F36e8LV7E2wWm5yPVEDrH56xuOwe4xaj7RXup6lsD95ZbD95vHvdzWNZ2IyFs9LUECh9vR4ZmraurbYzias+RFI0UPY1pnlFWWtrOPhkANdqHZZ6zIVbCcDXPXuMoLb6CaWkPxKkt+bsDQlY+p/3UlCO72+NLj7PyzjnZgDD8+eCvaQ6Qc9MmJM7P2ID9NwwNB5jTmLA68Qa0zueNbaEekzozhPhaGbona/bEk4BPDNkpuI544gpYqC9ViozoSLtQMhcaHY8WOc+xvvr35Sk6XtCERGx01fiX5MWtD+bJr00XEFGG9YbCCsxNWx0/tCfEcvJGLY9UgOB+07VZPr8yL8J/1y5mAGUSVeLNgtiU49d+cAWPqLOfvFb7qNzV8R2vELxhM/UvvlyY+ZcH+m5UyS1aoeg53fvATjxzQ7LuHgymI1rYMJ8yxR4vNHAgA4ZwAHDQ6tCGKfJjqyS9i2XZ0byVMh+toPDoQKnEXJtA8eno+NgMlkdP9mMVnhSCYSYZ1qXAkQIMIjrE4IVwWrJMim9SVppdAE2ersoNTlNc=",
-		"correct_signature512":"659fda87142f404bc7098ca970b605275d53e02a381b1d141bd4bd30e6fc8d5791750df3aec472192ecd58c5d573fea820bcbfc3afe2b70806fc20153010b363159867133b8bed40b4971de46a5186350016d947a9733b11f7d51ddb6b9abf02791fb93d7ff9d329b6f3115267cd8cae0b0149a6aa9aa433fd864e3f9560b3b44921d5a16fcebc730927166301920da16654b9bc6ec5d586ef9b3a7d5293ae0eacd4dcb202387e9214bc6e60131da74850fe9dd0f4f1713a92cb702296ba0a272863efdd4e4c40c7170a7fbcb53ef49560f509a9a219be8852acd8c45598d488d0fbadfbf9e168b7c852c2bf42c87ea450296d99063cee40523ebbb2522fcd13bacf6ea0cebdc7ffec1d53d4fb585c4ba392f4e8f597876cf17af39ce42e7004d657a2e3b5491230956a04251bfd9b5c1558d445fee36280e8392bdac693319f2db234a4e2dbb44ad39ca4cbae9329e1221a517b8ee58d2e41f02531770f5e6bd6cad5f8efffa27fedbd73ff442db6557f37d7ab809b79ed62dc965b9f817b3e16c3ce864415128b3d450da1ada4205e138ebf20a1627226fbff047c98649adb1e4f15df92f1d8f9378573a616629a7c6913fbf69269621d2a3e7dbc32a7d16ff0c8e3622e2dee0cb34636910d90f06fee497ae731f5f00b8673c0b8bc0b9d2762de7abbc0f3461d86d26a426edb7b3e86a4cc4f8b5019bad31cc9d90adf26b0"
+		"correct_digest":"7dVIjj8k54znqOPZyRYft1u6VRw=",
+		"correct_digest512":"bc74f3a8d139fd169ead1860c0c1469b4f643daccf25075ac1e6cfb35c2b8ee4819b44ad1d6c61683bceba667fb783a0df3431bdf4bba5e3e4e96202f15d33f9",
+		"correct_signature":"DyMKPB+kwLaUY8rVhpKREhs9NLSeJVCIy//EOFUwr+rhSKmqEHBsl3/NEiX9d+neLgVCGG7Wr73ZN+lMz/GZIhTZMdcoxZiYFC3ugx90Na/hcJ1YCCy1lzSaEmSRj+z5BBz6jwGAiNzmdQ36wX+ENcY0Hc5UruyqrAT+j+9EcBOQSU9DEH3XF1XPXAh4OdTYVC+5wYfACy0humdvAetMLIj9JjWqE/uy5xOzXSikrGbVFnxZDUrLkbr22YbfXfzIIz2qszdqz2WfNyQ3Hq9zVFjM76iASN2/OX3/HtKMjOPkRdJf71OWw8dsziXB0VhLYift4k5Zjp7a7c6YZoIkKBMIk1hjE74gZSRRHHeXxC74cXdn1iiJeUDplSh1Ui15d8uQiUaiTNqBkbVWOhJwKb8+XStCKRW/8X37nxAcwDCgL6rR4Ds4qRiZYawCJ4+kD6e4HzJlGqr/+8aV2miE5JRoIr+JuWE2wOdnQpJ/Bogp0aiLY+6aZwyxfkUcjEK0ixo/w8MQGHgg0tz6ZaaDQucj58CqJHx/zF3Oz1Uof+bzeweeJqDz9q89rzJj4g+xEcmzKAobZNEXT3VWMGkBXOIg4mxiLPB8JPRn4Ufg9qj/Zpc1n8SztAJ7tcn2m1JkDS9kJVfWMo6ubZZMK4EpEWaeYJVNcLLfl6P1NgSEMwg=",
+		"correct_signature512":"5496b9da2256ac02d74074391833711e253c0ba26564d2ebdcd993a2dce4e0be9a373b84de47eca5908f469c2f63e1b5808b91dc4c9ae0ffcad48ceb9f4196cac415d180070c85b0a26b5aa6badfa5e7fc86016efbb2af7215414746504facc1c6cbec592a0901a8fbc0b8c54eab8b6dfa946ec4eaeac0bc16866364c1437569e12b2bc69bc8fe4a0572f4ab2b3367d9b731e285b2459e43506a93f073192ee5b48c41b6dfbfb5af702ef6cbe56534d1157ecb7396991890242dd1fe4ec6b1d58d4fc8a24c22f125d3fa2377a54aeeeb9b9327d5e9a911d1a003cab73a21160b0b88ec54cc729fdbcd665730bb912a5bf7da4340b41036485c3113d1ce1be0a18c2233c13eabd4990a9fb65573e0035d10eed33815c0505fb97f04e6460bf2b4c47cc4161f7cc90fcd973114c1410f317e61328ac2f3841629c4064d9615d122e5900c5e8880a28867aebee1c3222531041fb2a25516b729093f0b3972c95136bb5cf880b38bca447f61e084f2bd11eba9084feb89e16f6516f7be6c217247adc2e5063c626a9c26b75ceeef38e6a85f902e8d7c0860e65f2390b8859b06411b18194d61d191a486460346c69ddf8d8a78d3c6d2e52e9d660f759ae05a37a6865333c61bf9cc71323d15fe4aebd927e031241e46107382b662c92fa1338f14a6517ca58b9f5cadb7cef7c02a3cce8adb34f8077f63391d655f428052a9d79f1a"
 	},
 	"updateCenterVersion":"1",
 	"warnings":[]
